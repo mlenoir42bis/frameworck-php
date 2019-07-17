@@ -1,0 +1,305 @@
+#iframeChat
+{
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 25px;
+height: 0;
+}
+
+#iframeChat iframe
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.block {
+  background-color: rgba(66,139,202, 0.1);
+  padding: 20px;
+  border-left: 2px solid #428bca;
+}
+.myHr {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+/* Home */
+.sign {
+  margin-top: 25px;
+  text-align: center;
+}
+.sign a {
+  text-decoration: none;
+}
+#pict-home {
+  border: 1px solid black;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 600px;
+}
+#pict-home img{
+  height: 300px;
+  width: 300px;
+  border-radius: 600px;
+}
+
+/* dropzone profil */
+#dropzoneAlready {
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.dropzoneFile {
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  position: relative;
+}
+.dropzoneFile img {
+  border-radius: 25px;
+  width: 125px;
+  height: 125px;
+}
+#myAvatar {
+  padding: 10px;
+  margin: 0 auto;
+}
+#myAvatar img {
+  border-radius: 25px;
+  border: 1px solid black;
+  width: 125px;
+  height: 125px;
+}
+.dropzoneFileHover{
+  width: 125px;
+  height: 125px;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 0;
+}
+.dropzoneFileHover .remove, .dropzoneFileHover .select{
+  background-color: #337AB7;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  padding: 5px;
+  color: white;
+}
+.dropzoneFileHover .remove {
+  position: absolute;
+  top: 62px;
+  left: 35px;
+}
+.dropzoneFileHover .select {
+  position: absolute;
+  top: 62px;
+  left: 65px;
+}
+
+/* lookfor */
+#consoleSearch .btn {
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px;
+}
+#consoleSearch input {
+  background-color: rgba(66,139,202, 0.0);
+  color: #428bca!important;
+}
+#consoleSearch #localisation {
+  background-color: white;
+  color: black!important;
+}
+#consoleSearch .ui-widget-header {
+  background: #428bca!important;
+}
+.lookForProfil {
+  margin-top: 10px;
+  margin-right: 5px;
+  border-bottom: 2px solid #428bca;
+  background-color: rgba(66,139,202, 0.1);
+  padding: 10px;
+}
+.lookForProfil .lookForAvatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.lookForProfil .lookForData {
+  width: 100%;
+  margin-top: 10px;
+}
+.lookForProfil img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 150px;
+}
+.lookForProfil .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.lookForData a {
+  text-decoration: none;
+  color: white;
+}
+.lookForAvatar .section-white {
+  width: 100px!important;
+  height: 100px!important;
+}
+.lookForAvatar .carousel-inner {
+  width: 100px;
+  height: 100px;
+}
+.lookForAvatar .carousel-pict {
+  width: 100px!important;
+  height: 100px!important;
+}
+.lookForAvatar .carousel-pict img {
+  width: 100px!important;
+  height: 100px!important;
+}
+/* swipe */
+#swipe {
+  position: relative;
+}
+.carouselMatcha {
+  background-color: white!important;
+  margin: 0 auto;
+}
+.carousel-control {
+  background-color: white!important;
+  background-image: none!important;
+}
+.carousel-pict {
+  margin: 0 auto!important;
+  border-radius: 150px!important;
+  border: 1px solid black!important;
+  height: 200px!important;
+  width: 200px!important;
+}
+.carousel-pict img{
+  border-radius: 150px;
+  height: 200px!important;
+  width: 200px!important;
+}
+#swipeConsole {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.carouselMatcha .carousel-indicators {
+  position: absolute;
+  bottom: -10px;
+  z-index:-1;
+}
+.carouselMatcha .carousel-indicators li {
+  color: grey!important;
+}
+.swipeButton{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 1px solid grey;
+  color: white;
+  padding: 15px;
+}
+.like {
+  background-color: #428bca;
+}
+.dislike {
+  background-color: #f23739;
+}
+.like:active, .dislike:active {
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+/* bloc page */
+#blocPage {
+  position: absolute;
+  top: 0;
+  background-color: rgba(66,139, 202, 0.5);
+  height: 100%;
+  width: 100%;
+  margin-left: 0px!important;
+  z-index: 9999;
+}
+#blocPage h2{
+  text-align: center;
+}
+#blocPage .btn {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+#blocPage .block {
+  width: 60%;
+  margin-top: 150px;
+  background-color: rgba(255,255, 255, 1);
+  color: white;
+}
+#blocPage a {
+  text-decoration: none;
+  color: white;
+}
+
+/* view profil */
+#viewsProfilData {
+  border-left: 2px solid #428bca;
+  padding: 15px;
+  background-color: rgba(66,139,202, 0.1);
+  display: block;
+  margin-bottom: 10px;
+}
+.viewsProfil strong {
+  font-weight: bold;
+  color: #428bca;
+}
+.viewsProfil .hTag {
+  margin: 3px;
+}
+#viewsProfilBibliographie, #viewsProfilInterest {
+  margin-top: 20px;
+}
+#viewsProfilBibliographie .data, #viewsProfilInterest .data{
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.viewsProfilElem {
+  margin: 10px;
+}
+.borderLeft {
+  border-left: 2px solid #428bca;
+}
+.viewsProfilButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 1px solid grey;
+  color: white;
+  padding: 15px;
+}
+#viewsProfilLike {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#viewsProfilBadConsol {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.badConsol {
+  background-color: rgba(235,191,186, 0.1);
+  text-align: center;
+  padding-bottom: 15px;
+  margin-bottom: 15px!important;
+}
+.badConsol .viewsProfilButton {
+  margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+.mce-tinymce, .mce-container, .mce-panel {
+  background-color: rgba(66,139,202, 0.1)!important;
+}
+
+#sortable li {
+  margin-top: 10px;
+  background-color: rgba(66,139,202, 0.1);
+  border: none;
+  border-left: 2px solid #428bca;
+  padding-left: 5px;
+}
+.block {
+  background-color: rgba(66,139,202, 0.1);
+  padding: 20px;
+  border-left: 2px solid #428bca;
+  margin: 10px;
+}
+#myAvatar {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+#myAvatar img{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+.submit {
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+#laboratoryMember img{
+  width: 100px;
+  height: 100px;
+}
+#myProject img {
+  width: 100px;
+  height: 100px;
+}
+#myGallery img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+#myGallery button {
+  display: block;
+  margin: 0 auto;
+}

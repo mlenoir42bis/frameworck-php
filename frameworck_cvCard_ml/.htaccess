@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{SERVER_PORT} ^80$
+RewriteCond %{HTTP_HOST} ^marceaulenoir.fr [NC]
+RewriteRule ^(.*)$ https://www.marceaulenoir.fr/$1 [R=301,L]
+RewriteRule ^$ /webroot/ [L]
+RewriteRule ^(.*)$ /webroot/$1 [L]

@@ -1,0 +1,33 @@
+#hTag {
+  min-height: 25px;
+}
+#hTagAutoComplete {
+  height: 100px;
+  border: 1px solid #66afe9;
+  border-radius: 5px;
+  background: white;
+}
+#hTagValid {
+  margin-top: 10px;
+}
+.hTag {
+  background-color: rgba(102, 175, 233, 0.7);
+  border: 2px solid #66afe9;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.hTagBloc {
+  display: inline-block;
+  border: 1px solid #66afe9;
+  border-radius: 5px;
+  background-color: rgba(102, 175, 233, 0.3);
+  margin: 1px;
+}
+.hTagAltern {
+  border-bottom: 1px solid grey;
+  text-align: center;
+  margin: 10px;
+  padding-left: 5px;
+  height: 25px;
+}

@@ -1,0 +1,42 @@
+{
+"RequestDateUTC": "2018-09-26T10:48:25Z",
+"RecipientInsurer": {
+    "Identifier": 0,
+    "VAT": "string",
+    "Name": "string"
+},
+"CarDetails": {
+    "LicencePlate": "string",
+    "VIN": "string",
+    "VehicleAcquisitionType": 0,
+    "DateOfVehicleRegistration": "2018-09-26T10:48:25Z",
+    "Make": "string",
+    "Model": "string",
+    "Version": "string",
+    "PriceWithOption": "string",
+    "PriceWithoutOption": "string",
+    "EngineSizeInCm3": 0,
+    "EnginePowerInKw": 0,
+    "Fuel": 0,
+    "UnloadedWeightInKg": 0
+},
+"Customer": {
+    "Person": {
+        "LastName": "string",
+        "FirstName": "string",
+        "BirthDate": "2018-09-26T10:48:25Z",
+        "Email": "string",
+        "Phone": "string",
+        "Address": {
+            "Street": "string",
+            "Number": "string",
+            "ZipOrPostcode": "string",
+            "City": "string"
+        }
+    }
+},
+"Communication": "string",
+"EffectiveDate": "2018-09-26T10:48:25Z",
+"RequestType": 0,
+"LicencePlateToReplace": "string"
+}

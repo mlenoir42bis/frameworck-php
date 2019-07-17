@@ -1,0 +1,88 @@
+.colorRed {
+    color: red!important;
+}
+
+.btn-middle {
+    margin: 0 auto;
+    text-align: center;
+    color:black!important;
+}
+
+.midle-g {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.map-g {
+    height: 250px!important;
+    width: 250px!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px!important;
+}
+
+.btn-blue {
+    background-color: #92caf7!important;
+}
+.btn-map {
+    margin-bottom: 20px!important;
+}
+
+.list-group-item.active {
+    background-color: #92caf7!important;
+    border-color: #92caf7!important;
+}
+
+.deleteFunctionnality, .deleteFunctionnalityPage {
+    margin: 10px;
+}
+
+.form-group-multiple-g input:not([type]):focus:not([readonly]),
+.form-group-multiple-g input[type=text]:focus:not([readonly]),
+.form-group-multiple-g input[type=password]:focus:not([readonly]),
+.form-group-multiple-g input[type=email]:focus:not([readonly]),
+.form-group-multiple-g input[type=url]:focus:not([readonly]),
+.form-group-multiple-g input[type=time]:focus:not([readonly]),
+.form-group-multiple-g input[type=date]:focus:not([readonly]),
+.form-group-multiple-g input[type=datetime]:focus:not([readonly]),
+.form-group-multiple-g input[type=datetime-local]:focus:not([readonly]), 
+.form-group-multiple-g input[type=tel]:focus:not([readonly]), 
+.form-group-multiple-g input[type=number]:focus:not([readonly]), 
+.form-group-multiple-g input[type=search]:focus:not([readonly]), 
+.form-group-multiple-g textarea.materialize-textarea:focus:not([readonly]) {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group-multiple-g {
+    padding: 10px;
+    margin: 0 auto!important;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.form-group-multiple-g label{
+    color: black;
+}
+.form-group-multiple-g input{
+    border-bottom: 1px solid white!important;
+}
+.form-group-multiple-g input:focus{
+    border-bottom: 2px solid #92caf7!important;
+}
+.form-group-multiple-g-1 {
+    background-color: #d8d1d0;
+}
+.form-group-multiple-g-2 {
+    background-color: #aba49d;
+    margin-bottom: 10px!important;
+}
+.form-group-multiple-g-3 {
+    background-color: #c59b86;
+    margin-bottom: 10px!important;  
+}
+.form-group-multiple-g-4 {
+    background-color: #ac816b;
+    margin-bottom: 10px!important; 
+}

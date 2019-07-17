@@ -1,0 +1,18 @@
+.gallery {
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.gallery a{
+    width: 75px;
+    height: 75px;
+}
+.gallery img, .gallery a{
+    display: block;
+    margin: 0 auto;
+}
+.gallery img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
